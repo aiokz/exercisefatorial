@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int main(){
+	int fatorial, numero;
+	
+	printf("Digite um numero calcular seu fatorial: ");
+	scanf("%d", &numero);
+	
+	fatorial = 1;
+	while(numero > 1){
+	   	fatorial = fatorial * numero;
+		numero --; 	
+	}
+	printf("\nFatorial calculado: %d", fatorial);
+	return 0;
+	}
